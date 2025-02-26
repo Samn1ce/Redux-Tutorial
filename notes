@@ -1,0 +1,14 @@
+Redux--
+
+firstly, create a "store.js" in "src"
+
+inside store.js start creating your state magt.
+
+import the config from redux toolkit i.e import { configureStore } from "@reduxjs/toolkit";
+
+afterwards, create and export a variable holding the config i.e export const store = configureStore({
+reducer: {},
+});
+A REDUCER is a function that specifies how the state of your app should chamge in response to your to an action. It has a function in taking two arguments and a "state/action". The "state" will be the code "state" of the part of the app that the specific reducer manages. The action will be an object describing what happens in your app, it might include a data you need to execute to change the state.
+
+useSelector hook is used to get data from your state
